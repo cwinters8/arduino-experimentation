@@ -1,3 +1,7 @@
 {
-  "go.inferGopath": false
+  "go.inferGopath": false,
+  "go.toolsEnvVars": {
+    "GOROOT": "/home/pi/.cache/tinygo/goroot-go1.17.1-f9ec857492159f6500d392591ef7322f746b4304af4f4c8b272a428c6d4fb086-syscall",
+    "GOFLAGS": "-tags=arduino,atmega328p,atmega,avr5,avr,baremetal,linux,arm,tinygo,math_big_pure_go,gc.conservative,scheduler.none,serial.uart"
+  }
 }
